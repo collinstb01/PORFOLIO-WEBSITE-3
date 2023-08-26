@@ -37,6 +37,15 @@ let dummyArr = [
     techStack: ` React.js, Redux, Node Js, Mongodb (MERN Stack)`,
     link: "https://github.com/collinstb01/Memories-Web-App.git",
   },
+
+  {
+    image: "images/p4.png",
+    subheading: "Memories Web App",
+    heading: `A Decentralized Application.`,
+    desc1: `A Decentralized Application that allow users to create NFTS, create auctions, Bid NFTS, Transfer tokens from his/her account to anoether, allows users to withdraw funds etc`,
+    techStack: ` React.js, Redux, Node Js, Mongodb (MERN Stack), Solidity, Ether js, Web3`,
+    link: "https://github.com/collinstb01/",
+  },
 ];
 
 // const paginationLimit = 2;
