@@ -44,7 +44,7 @@ let dummyArr = [
     heading: `A Decentralized Application.`,
     desc1: `A Decentralized Application that allow users to create NFTS, create auctions, Bid NFTS, Transfer tokens from his/her account to anoether, allows users to withdraw funds etc`,
     techStack: ` React.js, Redux, Node Js, Mongodb (MERN Stack), Solidity, Ether js, Web3`,
-    link: "https://github.com/collinstb01/",
+    link: "https://somidax.netlify.app/",
   },
 ];
 
