@@ -46,6 +46,14 @@ let dummyArr = [
     techStack: ` React.js, Redux, Node Js, Mongodb (MERN Stack), Solidity, Ether js, Web3`,
     link: "https://somidax.netlify.app/",
   },
+  {
+    image: "images/t.png",
+    subheading: "Sonie Seams Fashion Store",
+    heading: `A Fashion Desginer web app.`,
+    desc1: `A Web App that showcase new fashion trends from sonie seams store. Basically users get to see ne jobs from sonie seams store and can also reach out if they find anything interesting`,
+    techStack: ` React.js, Redux, Framer Motion, Gsap, Locomotive scroll`,
+    link: "https://github.com/collinstb01/Fashion-Web",
+  },
 ];
 
 // const paginationLimit = 2;
