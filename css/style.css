@@ -2127,6 +2127,11 @@ header .colorlib-navbar-brand .colorlib-logo {
   position: relative;
   padding-left: 62px;
 }
+@media (max-width: 400px) {
+  header .colorlib-navbar-brand .colorlib-logo {
+    font-size: 18px;
+  }
+}
 header .colorlib-navbar-brand .colorlib-logo .logo-img {
   width: 50px;
   height: 50px;
@@ -2661,7 +2666,7 @@ textarea.form-control {
 }
 
 .ftco-section {
-  padding: 7em 0;
+  padding-top: 7em;
 }
 
 .ftco-bg-dark {
