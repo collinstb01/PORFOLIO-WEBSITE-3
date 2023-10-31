@@ -2,6 +2,20 @@ let portfolioProject = document.getElementById("portfolioProject");
 
 let dummyArr = [
   {
+    image: "images/SET.jpeg",
+    subheading: "Crypto-Wallet",
+    heading: `This is a crypto wallet that has major functionalities of a wallet.`,
+    desc1: `Send Token: Easily send cryptocurrency tokens to other wallet addresses.
+Create Account: Create new cryptocurrency wallet accounts with ease.
+Import Account with Seed Phrase: Recover your wallet by importing it using a seed phrase.
+Import Account with Private Key: Access your wallet by importing it using a private key.
+Create Another Account with Seed Phrase: Add multiple wallet accounts using seed phrases.
+Login: Securely log in to your wallet to manage your assets, Swap and lots more..`,
+    techStack: ` React Native, Expo, Redux, Ethers js, Solidity, Foundry (Click on view project to see steps on how to run the project)`,
+    link: "https://github.com/collinstb01/Crypto-Wallet",
+    watchYoube: "Watch on youtube (Soon)",
+  },
+  {
     image: "images/p1.png",
     subheading: "Nos Admin Dashboard",
     heading: `A Live Admin Dashboard built to manage the data of customers`,
@@ -13,17 +27,12 @@ let dummyArr = [
     link: "https://nos-admin-test.netlify.app/",
   },
   {
-    image: "images/p2.png",
-    subheading: "Online Banking Web App",
-    heading: `A secure and user-friendly platform designed to offer a modern banking
-    experience`,
-    desc1: `This software
-                  allows users to
-                  seamlessly send and receive money, make deposits and withdrawals, and track their transaction history.
-                  Each user is
-                  provided with a unique account number upon registration for a personalized experience.`,
-    techStack: `React.js, Redux, Node Js, Mongodb (MERN Stack)`,
-    link: "https://github.com/collinstb01/Online-Baking",
+    image: "images/p4.png",
+    subheading: "Somidax",
+    heading: `A Decentralized Application.`,
+    desc1: `A Decentralized Application that allow users to create NFTS, create auctions, Bid NFTS, Transfer tokens from his/her account to anoether, allows users to withdraw funds etc`,
+    techStack: ` React.js, Redux, Node Js, Mongodb (MERN Stack), Solidity, Ether js, Web3`,
+    link: "https://somidax.netlify.app/",
   },
   {
     image: "https://i.ibb.co/7CmVbCW/image.png",
@@ -37,14 +46,18 @@ let dummyArr = [
     techStack: ` React.js, Redux, Node Js, Mongodb (MERN Stack)`,
     link: "https://github.com/collinstb01/Memories-Web-App.git",
   },
-
   {
-    image: "images/p4.png",
-    subheading: "Memories Web App",
-    heading: `A Decentralized Application.`,
-    desc1: `A Decentralized Application that allow users to create NFTS, create auctions, Bid NFTS, Transfer tokens from his/her account to anoether, allows users to withdraw funds etc`,
-    techStack: ` React.js, Redux, Node Js, Mongodb (MERN Stack), Solidity, Ether js, Web3`,
-    link: "https://somidax.netlify.app/",
+    image: "images/p2.png",
+    subheading: "Banking Web App",
+    heading: `A secure and user-friendly platform designed to offer a modern banking
+    experience`,
+    desc1: `This software
+                  allows users to
+                  seamlessly send and receive money, make deposits and withdrawals, and track their transaction history.
+                  Each user is
+                  provided with a unique account number upon registration for a personalized experience.`,
+    techStack: `React.js, Redux, Node Js, Mongodb (MERN Stack)`,
+    link: "https://github.com/collinstb01/Online-Baking",
   },
   {
     image: "images/t.png",
@@ -82,7 +95,12 @@ dummyArr.forEach((val, i) => {
                 <p>${val.desc1}<br>
                   <strong>Tech Stack:</strong> ${val.techStack}
                 </p>
+               <div class="yotube">
                 <p><a href=${val.link} target="_blank">View Project</a></p>
+                <p><a href=${val.link} target="_blank">${
+    val.watchYoube ? val.watchYoube : ""
+  }</a></p>
+               </div>
               </div>
             </div>`;
   portfolioProject.append(div);
